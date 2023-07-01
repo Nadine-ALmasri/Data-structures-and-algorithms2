@@ -113,8 +113,7 @@ namespace LinkedList
                     New.Next = current.Next;
                     current.Next = New;
                     return;
-                }
-                else
+   
                 {
                     current = current.Next;
 
