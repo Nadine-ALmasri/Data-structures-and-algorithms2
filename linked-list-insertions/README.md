@@ -26,10 +26,9 @@ adds a new node with the given new value immediately after the first node that h
 ## Solution:
 The provided code implements the LinkedList class with the required methods to append nodes at the end, insert nodes before a specified node, and insert nodes after a specified node. The methods traverse the linked list and update the references accordingly to perform the desired insertions. The implementation ensures proper error handling, such as throwing exceptions when necessary (e.g., if a value is not found).
 
-## Whiteboard 
-![](./cc6.jpg)
 
-![](./happy.jpg)
+
+
 
 
 
