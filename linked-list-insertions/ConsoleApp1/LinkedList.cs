@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 //
 namespace LinkedList
 {
-    public class List
+    public class LinkedList
     {
         public Node Head;
         public Node Tail;
-        public List()
+        public LinkedList()
         {
             Head = Tail = null;
         }

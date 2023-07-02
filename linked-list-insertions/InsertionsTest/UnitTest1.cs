@@ -19,7 +19,7 @@ namespace InsertionsTest
             public void AddNodeToEnd()
             {
                 // Arrange
-                List linkedList6 = new List();
+                LinkedList.LinkedList linkedList6 = new LinkedList.LinkedList();
 
                 // Act
                 linkedList6.append(10);
@@ -32,7 +32,7 @@ namespace InsertionsTest
             public void CanAddMultipleNodesToEnd()
             {
                 // Arrange
-                List linkedList = new List();
+                LinkedList.LinkedList linkedList = new LinkedList.LinkedList();
 
                 // Act
                 linkedList.append(10);
@@ -47,7 +47,7 @@ namespace InsertionsTest
             public void CanInsertNodeBeforeMiddleNode()
             {
                 // Arrange
-                List list1 = new List();
+                LinkedList.LinkedList list1 = new LinkedList.LinkedList();
                 list1.append(10);
                 list1.append(30);
 
@@ -61,7 +61,7 @@ namespace InsertionsTest
             [Fact]
             public void InsertNodeBeforeFirstNode()
             {
-                List list = new List();
+                LinkedList.LinkedList list = new LinkedList.LinkedList();
                 list.append(2);
                 list.append(3);
 
@@ -76,7 +76,7 @@ namespace InsertionsTest
             public void InsertNodeAfterMiddleNode()
             {
                 // Arrange
-                List linkedList8 = new List();
+                LinkedList.LinkedList linkedList8 = new LinkedList.LinkedList();
                 linkedList8.append(5);
                 linkedList8.append(7);
 
@@ -90,7 +90,7 @@ namespace InsertionsTest
             [Fact]
             public void InsertNodeAfterLastNode()
             {// Arrange
-                List linkedList = new List();
+                LinkedList.LinkedList linkedList = new LinkedList.LinkedList();
                 linkedList.append(10);
                 linkedList.append(20);
 
