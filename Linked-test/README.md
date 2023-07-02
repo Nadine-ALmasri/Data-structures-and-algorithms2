@@ -7,7 +7,9 @@ The linked list implementation provides the following functionality:
 - Creation of an empty linked list
 - Insertion of nodes at the head of the list
 - adds a new node with the given value to the end of the list
+
 - adds a new node with the given new value immediately before the first node that has the value specified
+
 - adds a new node with the given new value immediately after the first node that has the value specified
 
 ## Description
