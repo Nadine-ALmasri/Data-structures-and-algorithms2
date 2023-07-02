@@ -7,4 +7,4 @@
 
 - [linked-list](.\Linked-test\README.md)
 
-- [linked-list-insertions](.\linked-list-insertions\ConsoleApp1\README.md)
+- [linked-list-insertions](.\linked-list-insertions\README.md)
