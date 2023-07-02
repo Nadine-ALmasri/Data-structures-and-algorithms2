@@ -113,52 +113,53 @@ namespace LinkedList
                     New.Next = current.Next;
                     current.Next = New;
                     return;
-   
-                {
-                    current = current.Next;
 
+                    {
+                        current = current.Next;
+
+                    }
+                    throw new ArgumentException($"Value {value} not found in the linked list.");
                 }
-                throw new ArgumentException($"Value {value} not found in the linked list.");
-            }
 
+            }
         }
-        public void Insertbefore(int Newvalue, int value)
-        {
-            if (Head == null)
+            public void Insertbefore(int Newvalue, int value)
             {
-                throw new InvalidOperationException("The linked list is empty.");
-            }
-            if (Head.Data == value)
-            {
-               
-                Node newNode = new Node(Newvalue);
-                newNode.Next = Head;
-                Head = newNode;
-                return;
-            }
-
-            Node current = Head;
-            while (current.Next != null)
-            {
-                if (current.Next.Data == value)
+                if (Head == null)
                 {
-                    Console.WriteLine($"INSERTING {Newvalue} BEFORE {value}");
-                    Node New = new Node(Newvalue);
-                    New.Next = current.Next;
-                    current.Next = New;
+                    throw new InvalidOperationException("The linked list is empty.");
+                }
+                if (Head.Data == value)
+                {
+
+                    Node newNode = new Node(Newvalue);
+                    newNode.Next = Head;
+                    Head = newNode;
                     return;
                 }
 
+                Node current = Head;
+                while (current.Next != null)
                 {
-                    current = current.Next;
+                    if (current.Next.Data == value)
+                    {
+                        Console.WriteLine($"INSERTING {Newvalue} BEFORE {value}");
+                        Node New = new Node(Newvalue);
+                        New.Next = current.Next;
+                        current.Next = New;
+                        return;
+                    }
+
+                    {
+                        current = current.Next;
+
+                    }
 
                 }
-
-            }
                 Console.WriteLine($"Value {value} not found in the linked list.");
 
+            }
         }
-    }
-}
+    } 
     
     
