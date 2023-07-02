@@ -13,7 +13,6 @@ The linked list implementation provides the following functionality:
 ## Description
 The Node class represents a node in the linked list. It has two properties: Value, which stores the value of the node, and Next, which points to the next node in the list.
 The List class manages the operations on the linked list. It has a Head property that points to the first node in the list. The class provides the following methods:
-
 - ### append
 arguments: new value
 adds a new node with the given value to the end of the list
