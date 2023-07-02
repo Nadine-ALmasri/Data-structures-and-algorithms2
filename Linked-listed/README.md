@@ -23,8 +23,10 @@ The List class manages the operations on the linked list. It has a Head property
 - Insertion: The Insert method adds a new node at the head of the linked list. It has a time complexity of O(1) since it always inserts at the beginning of the list.
 ## Solution:
 The provided code implements the LinkedList class with the required methods to append nodes at the end, insert nodes before a specified node, and insert nodes after a specified node. The methods traverse the linked list and update the references accordingly to perform the desired insertions. The implementation ensures proper error handling, such as throwing exceptions when necessary (e.g., if a value is not found).
+## WhitBoard 
+![](./cc5.jpg)
 
-
+![](./happy5.jpg)
 
 
 
