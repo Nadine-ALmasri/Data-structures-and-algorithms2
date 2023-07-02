@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-       List I =new List();
+       LinkedList I =new LinkedList();
             I.append(5);
             I.append(15);
             I.AddFirstList(6);
