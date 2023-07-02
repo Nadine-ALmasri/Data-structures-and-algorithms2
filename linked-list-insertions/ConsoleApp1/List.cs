@@ -113,14 +113,15 @@ namespace LinkedList
                     New.Next = current.Next;
                     current.Next = New;
                     return;
-   
-                {
-                    current = current.Next;
 
+                    {
+                        current = current.Next;
+
+                    }
+                    throw new ArgumentException($"Value {value} not found in the linked list.");
                 }
-                throw new ArgumentException($"Value {value} not found in the linked list.");
-            }
 
+            }
         }
         public void Insertbefore(int Newvalue, int value)
         {
