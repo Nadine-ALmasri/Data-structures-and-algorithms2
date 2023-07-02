@@ -2,7 +2,7 @@
 
 - [Reverse-Array](./Reverse-Array/Reverse-Array.md)
 
-- [Array-insert-shift](./array-insert-shift/README2.md)-
+- [Array-insert-shift](./array-insert-shift/README2.md)
 - [array-binary-search](./array-binary-search/README3.md)
 
 
