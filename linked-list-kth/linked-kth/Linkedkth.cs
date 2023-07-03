@@ -16,7 +16,7 @@
             I.Insertbefore(4,15);
             I.Display();
             Console.WriteLine("the Kth Method");
-            I.KthFromEnd(-1);
+            I.KthFromEnd(2);
 
 
           string y= I.ToString();
