@@ -25,4 +25,6 @@ where each node contains a value and a pointer to the next node.
 ## Solution:
 The code provided implements a basic linked list with the required methods. It should be functional for inserting nodes, checking if a value exists, converting the list to a string, and finding the kth node from the end.
 ## WhiteBoard 
+![](./c7.jpg)
+![](./happy77.jpg)
 

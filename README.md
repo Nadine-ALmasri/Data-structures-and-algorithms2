@@ -8,3 +8,4 @@
 - [linked-list](.\Linked-test\README.md)
 
 - [linked-list-insertions](.\linked-list-insertions\Insertions\README.md)
+- [linked-list-kth](.\linked-list-kth\README.md)
