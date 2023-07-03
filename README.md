@@ -7,4 +7,8 @@
 
 - [linked-list](./Linked-listed/README.md)
 
+
+
+- [linked-list-kth](./linked-list-kth/README.md)
 - [linked-list-insertions](./linked-list-insertions/README.md)
+
