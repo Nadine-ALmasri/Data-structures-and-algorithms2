@@ -10,5 +10,5 @@
 
 
 - [linked-list-kth](./linked-list-kth/README.md)
-- [linked-list-insertions](./linked-list-insertions/README.md)
-
+- [linked-list-insertions](./linked-list-insertions/README.md)          
+- [linked-list-Zipper](./linked-list-zip/README.md)
