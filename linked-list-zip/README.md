@@ -1,30 +1,25 @@
 ## Summary:
-The code implements a linked list  with new method. 
-It includes the kthFromEnd method, which returns the value of the node
-that is k places from the tail of the linked list. The implementation follows the singly linked list concept,
-where each node contains a value and a pointer to the next node.
-
+------------
+The ZipLists function takes two linked lists as input and merges them into a new linked list, 
+where the nodes alternate between the two lists. The merged list is returned as the result.
+The implementation aims to minimize additional space usage, keeping it to O(1).
 ## Description:
- The class includes the following methods:
-- Insert :Insertion of nodes at the head of the list
-- Append : adds a new node with the given value to the end of the list
 
-- ADD before :adds a new node with the given new value immediately before the first node that has the value specified
-
-- AddAfter :adds a new node with the given new value immediately after the first node that has the value specified
-- Includes: Checks if a value exists as a node's value somewhere within the list and returns a Boolean.
-- ToString: Returns a string representation of all the values in the linked list, formatted as "{ a } -> { b } -> { c } -> NULL".
-- KthFromEnd: Returns the value of the node that is k places from the tail of the linked list .
+The ZipLists function iterates through both input lists simultaneously,
+merging their nodes alternately into a new linked list 3. 
+It creates a new instance of the LinkedList class to store the merged list and maintains a pointer currentList3 to
+keep track of the current node being appended to the merged list.
 ## Approach & Efficiency:
-
-- The Insert method inserts a new node at the head of the linked list, which has a constant time complexity of O(1).
-- The Includes method iterates through the linked list to check if a value exists, which has a time complexity of O(n), where n is the number of nodes in the list.
-- The ToString method iterates through the linked list to build a string representation of the values, which also has a time complexity of O(n).
-- The KthFromEnd method calculates the length of the linked list in the first loop, which has a time complexity of O(n). Then, it traverses the list again to find the kth node from the end, resulting in a total time complexity of O(n).
-*The space complexity of the linked list implementation is O(n), where n is the number of nodes in the list, as each node requires memory allocation.*
+- The function starts by checking if either of the input lists is empty. If one list is empty, the other list is returned as the merged list, resulting in O(1) time complexity.
+- The function then iterates through both lists simultaneously, merging their nodes alternately. It appends each node from list1 to the merged list, updates the pointers accordingly, and moves to the next nodes. This process continues until reaching the end of either list.
+- After reaching the end of one list, the function handles the case where the other list is longer. It appends the remaining nodes from that list to the merged list.
+- The function returns the merged list.
+The time complexity of the function is O(n), where n is the total number of nodes in the two input lists. This is because each node is visited once during the merging process.
+The space complexity is O(1) since the function uses a constant amount of additional space to create the merged list and maintain pointers.
 ## Solution:
-The code provided implements a basic linked list with the required methods. It should be functional for inserting nodes, checking if a value exists, converting the list to a string, and finding the kth node from the end.
-## WhiteBoard 
-![](./c7.jpg)
-![](./happy77.jpg)
+The code Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+## WhiteBoard   
+
+![](./zip.jpg)
+![](./zipping.jpg)
 
