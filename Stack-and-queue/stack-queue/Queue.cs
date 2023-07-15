@@ -53,7 +53,7 @@ namespace stack_queue
 
             return value;
         }
-
+        //
         public object Peek()
         {
             if (IsEmpty())
