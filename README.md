@@ -14,4 +14,4 @@
 - [linked-list-Zipper](./linked-list-zip/README.md)
 
 - [Stack-And -Queue ](./Stack-and-queue/README.md)
- - [Stack-queue-paseudo](./stack-queue-paseudo/README.md)
+ - [Stack-queue-paseudo](./stack-queue-pseudo/README.md)
