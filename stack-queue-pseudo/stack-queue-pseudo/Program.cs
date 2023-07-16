@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            PseudoQueue queue = new PseudoQueue();
+            queue.Enqueue(12);
+            queue.Enqueue(15);
+            queue.Enqueue(18);
+            Console.WriteLine(queue.Dequeue());  
+            Console.WriteLine(queue.Dequeue());
         }
     }
 }
