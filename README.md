@@ -12,3 +12,6 @@
 - [linked-list-kth](./linked-list-kth/README.md)
 - [linked-list-insertions](./linked-list-insertions/README.md)          
 - [linked-list-Zipper](./linked-list-zip/README.md)
+
+- [Stack-And -Queue ](./Stack-and-queue/README.md)
+ - [Stack-queue-paseudo](./stack-queue-pseudo/README.md)
