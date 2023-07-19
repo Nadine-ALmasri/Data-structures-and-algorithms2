@@ -62,7 +62,7 @@ namespace animalShulterTest
             // Arrange
             animalShelter shelter = new animalShelter();
 
-            // Act & Assert
+            //  Assert
             Assert.Null(shelter.Dequeue("dog"));
             Assert.Null(shelter.Dequeue("cat"));
             Assert.Null(shelter.Dequeue("any"));
