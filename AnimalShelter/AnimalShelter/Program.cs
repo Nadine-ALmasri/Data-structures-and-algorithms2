@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            AnimalShelter shelter = new AnimalShelter();
+            animalShelter shelter = new animalShelter();
 
             // Enqueue some animals
             shelter.Enqueue(new Animal { Species = "dog", Name = "max" });
