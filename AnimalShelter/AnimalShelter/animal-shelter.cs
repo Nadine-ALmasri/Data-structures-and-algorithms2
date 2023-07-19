@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AnimalShelter
 {
-    public class AnimalShelter
+    public class animalShelter
     {
-        private Queue<Animal> dogs;
-        private Queue<Animal> cats;
+        public Queue<Animal> dogs;
+        public Queue<Animal> cats;
 
-        public AnimalShelter()
+        public animalShelter()
         {
             dogs = new Queue<Animal>();
             cats = new Queue<Animal>();

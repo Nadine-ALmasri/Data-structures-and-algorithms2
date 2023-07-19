@@ -12,7 +12,7 @@ The AnimalShelter class is implemented in C#. It contains two private queues, on
 
 - Dequeue: When an animal is dequeued, the method checks the user's preference. If the preference is "dog" or "cat," the oldest animal of the specified species is dequeued from the respective queue. If the preference is "any," the method compares the timestamps of the oldest dog and cat and dequeues the one with the earlier timestamp. The time complexity of dequeuing an animal is O(1) for preference "dog" or "cat" and O(1) + O(n) for preference "any," where n is the number of animals in the shelter.
 ## Solution And Visual :
-You can use this implementation to create an instance of the AnimalShelter class, enqueue animals, and dequeue animals based on different preferences.## WhiteBoard   
+You can use this implementation to create an instance of the AnimalShelter class, enqueue animals, and dequeue animals based on different preferences.   
   
     public static void Main(string[] args)
         {
@@ -57,7 +57,7 @@ You can use this implementation to create an instance of the AnimalShelter class
 ![](./cc12.PNG)
 
 
-
-![](./zip.jpg)
-![](./zipping.jpg)
+## WhiteBoard
+![](./cc_12.jpg)
+![](./cc122.jpg)
 
