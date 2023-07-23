@@ -17,3 +17,4 @@
  - [Stack-queue-paseudo](./stack-queue-pseudo/README.md)
 
 - [AnimalShelter](./AnimalShelter/README.md)
+- [StackAndQueueBrackets](./StackAndQueueBrackets/README.md)
