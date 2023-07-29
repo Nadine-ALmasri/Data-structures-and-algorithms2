@@ -28,7 +28,7 @@
 
         // Check if the tree contains certain values
         Console.WriteLine("Contains 40: " + binarySearchTree.Contains(40)); // should return false
-        Console.WriteLine("Contains 655: " + binarySearchTree.Contains(65)); // should return true
+        Console.WriteLine("Contains 65: " + binarySearchTree.Contains(65)); // should return true
     }
     }
 }
