@@ -18,4 +18,6 @@
 
 - [AnimalShelter](./AnimalShelter/README.md)
 - [StackAndQueueBrackets](./StackAndQueueBrackets/README.md)
-- [binary_Trees](./binary_Trees/README2.md)
+- [binary_Trees](./binary_Trees/README2.md)  
+- [MaxTree](./MaxTree/README2.md)  
+
