@@ -19,4 +19,4 @@ The space complexity is also O(n) because, in the worst case, the queue can hold
 
 
 
-![](./cc16-3.jpg)
+![](./cc17-3.PNG)
