@@ -18,12 +18,12 @@ namespace tree_breadth_first
         }
     }
 
-    public class CustomQueue
+    public class Queue
     {
         private QueueNode Front;
         private QueueNode Rear;
 
-        public CustomQueue()
+       public Queue()
         {
             Front = null;
             Rear = null;
