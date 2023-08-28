@@ -21,4 +21,7 @@
 - [binary_Trees](./binary_Trees/README2.md)  
 - [MaxTree](./MaxTree/README2.md)  
 - [tree-breadth-first](./tree-breadth-first/README2.md)  
-- [tree-fizz-buzz](./tree-fizz-buzz/README2.md)  
+- [tree-fizz-buzz](./tree-fizz-buzz/README2.md) 
+- [InsertionSort](./InsertionSort/README2.md) 
+
+
