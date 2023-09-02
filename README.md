@@ -24,4 +24,5 @@
 - [tree-fizz-buzz](./tree-fizz-buzz/README2.md) 
 - [InsertionSort](./InsertionSort/README2.md) 
 
+-  [MergeSort](./MergeSort/README2.md) 
 
