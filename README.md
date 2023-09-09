@@ -25,4 +25,5 @@
 - [InsertionSort](./InsertionSort/README2.md) 
 
 -  [MergeSort](./MergeSort/README2.md) 
+-  [SortingObjects](./SortingObjects/README2.md)
 
