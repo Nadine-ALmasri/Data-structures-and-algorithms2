@@ -26,4 +26,5 @@
 
 -  [MergeSort](./MergeSort/README2.md) 
 -  [SortingObjects](./SortingObjects/README2.md)
+-  [hashtable](./hashtable/README2.md)
 
