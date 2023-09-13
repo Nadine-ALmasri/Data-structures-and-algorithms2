@@ -16,9 +16,10 @@ This code implementing a basic hash table (HashMap) data structure that allows y
 - Hash method returns an integer index.
 - Print method prints the contents of the hash table to the console.
 ## Visual:
-Here's a visual representation of the TreeMax :
+Here's a visual representation of the code:
 
 ![](./cc30.PNG)
+
 
 ![](./cc30-2.PNG)
 ## Approach & Efficiency:
