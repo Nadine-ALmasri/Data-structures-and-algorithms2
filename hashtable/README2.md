@@ -18,7 +18,7 @@ This code implementing a basic hash table (HashMap) data structure that allows y
 ## Visual:
 Here's a visual representation of the code:
 
-![](./cc30.PNG)
+![](./CC30.PNG)
 
 
 ![](./cc30-2.PNG)
