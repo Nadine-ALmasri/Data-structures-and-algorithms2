@@ -11,7 +11,7 @@ Output: The output is a string representing the first word that occurs more than
 ## Visual:
 Here's a visual representation of the code:
 
-![](./CC31.PNG)
+![](./cc31.PNG)
 
 
 ![](./cc31-2.PNG)
