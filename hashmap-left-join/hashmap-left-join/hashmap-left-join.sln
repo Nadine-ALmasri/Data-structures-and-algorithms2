@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hashmap-left-join", "hashmap-left-join.csproj", "{5AB4F039-1E12-400E-B5FD-D4EFA321241F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLefJoin", "..\TestLefJoin\TestLefJoin.csproj", "{2D9938D6-9785-4AC2-8CDD-2A188AAA186A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AB4F039-1E12-400E-B5FD-D4EFA321241F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB4F039-1E12-400E-B5FD-D4EFA321241F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB4F039-1E12-400E-B5FD-D4EFA321241F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB4F039-1E12-400E-B5FD-D4EFA321241F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9938D6-9785-4AC2-8CDD-2A188AAA186A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9938D6-9785-4AC2-8CDD-2A188AAA186A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9938D6-9785-4AC2-8CDD-2A188AAA186A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9938D6-9785-4AC2-8CDD-2A188AAA186A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A637933-DDF3-4D4B-BF61-39B674A0E427}
+	EndGlobalSection
+EndGlobal
