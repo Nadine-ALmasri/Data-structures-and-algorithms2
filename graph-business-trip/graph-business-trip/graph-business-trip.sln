@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "graph-business-trip", "graph-business-trip.csproj", "{EFBD26EB-C05E-45DC-946D-15854C7C8050}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTrip", "..\TestTrip\TestTrip.csproj", "{999F1DBB-10F0-4799-B6B3-09A1DB3C172D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFBD26EB-C05E-45DC-946D-15854C7C8050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBD26EB-C05E-45DC-946D-15854C7C8050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBD26EB-C05E-45DC-946D-15854C7C8050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBD26EB-C05E-45DC-946D-15854C7C8050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999F1DBB-10F0-4799-B6B3-09A1DB3C172D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999F1DBB-10F0-4799-B6B3-09A1DB3C172D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999F1DBB-10F0-4799-B6B3-09A1DB3C172D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999F1DBB-10F0-4799-B6B3-09A1DB3C172D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF4FC4E9-46B5-4B71-823C-F2543E1A1D06}
+	EndGlobalSection
+EndGlobal
