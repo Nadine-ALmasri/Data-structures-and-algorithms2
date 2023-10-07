@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "graph-depth-first", "graph-depth-first.csproj", "{55C5364E-2EE8-4F83-986F-D4DC6B2D8471}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testgraphdepth", "..\Testgraphdepth\Testgraphdepth.csproj", "{368FF107-8A5E-4513-9A8C-CA086067438A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C5364E-2EE8-4F83-986F-D4DC6B2D8471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C5364E-2EE8-4F83-986F-D4DC6B2D8471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C5364E-2EE8-4F83-986F-D4DC6B2D8471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C5364E-2EE8-4F83-986F-D4DC6B2D8471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368FF107-8A5E-4513-9A8C-CA086067438A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368FF107-8A5E-4513-9A8C-CA086067438A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368FF107-8A5E-4513-9A8C-CA086067438A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368FF107-8A5E-4513-9A8C-CA086067438A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A82B6EFA-3799-4559-BD22-2DBF8EBAEDEE}
+	EndGlobalSection
+EndGlobal
