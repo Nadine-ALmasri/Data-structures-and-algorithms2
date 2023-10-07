@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace breadth_first
+namespace GraphBreadthFirst
 {
-    internal class Node
+    public class Node
     {
         public string Value { get; }
         public List<Node> Neighbors { get; }

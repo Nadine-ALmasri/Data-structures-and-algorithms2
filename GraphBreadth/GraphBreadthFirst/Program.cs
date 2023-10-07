@@ -1,4 +1,5 @@
-﻿namespace breadth_first
+﻿
+namespace GraphBreadthFirst
 {
     internal class Program
     {

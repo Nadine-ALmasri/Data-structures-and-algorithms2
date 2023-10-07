@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace breadth_first
+namespace GraphBreadthFirst
 {
-    internal class Graph
+    public  class Graph
     {
         public Node Root { get; set; }
 
